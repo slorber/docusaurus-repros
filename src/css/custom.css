@@ -1,0 +1,22 @@
+/*
+ * Workaround for https://github.com/facebook/docusaurus/issues/7918
+ *
+ * When the docs sidebar is hidden, the theme gives the freed space to the doc
+ * content. Lines re-wrap, the doc gets shorter, and the content below shifts.
+ *
+ * This rule keeps the doc content exactly as wide as with the sidebar visible:
+ * the main area keeps the width it has next to the visible sidebar, capped at
+ * the widest content container width, and is centered in the freed space.
+ *
+ * CSS module class names are hashed (docSidebarContainerHidden_DPk8), so the
+ * selector matches on their stable prefix.
+ */
+@media (width >= 997px) {
+  [class*='docSidebarContainerHidden'] + main {
+    max-width: min(
+      calc(100% - var(--doc-sidebar-width)),
+      var(--ifm-container-width-xl)
+    );
+    margin-inline: auto;
+  }
+}
