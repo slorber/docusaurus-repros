@@ -1,0 +1,31 @@
+{
+  "name": "docusaurus-repro-issue-8226",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "swizzle": "docusaurus swizzle",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@docusaurus/core": "4.0.0-canary-6972",
+    "@docusaurus/preset-classic": "4.0.0-canary-6972",
+    "@mdx-js/react": "3.1.1",
+    "clsx": "2.1.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "4.0.0-canary-6972",
+    "@docusaurus/tsconfig": "4.0.0-canary-6972",
+    "@docusaurus/types": "4.0.0-canary-6972",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=24.21"
+  }
+}
