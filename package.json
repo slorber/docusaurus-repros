@@ -1,0 +1,21 @@
+{
+  "name": "docusaurus-repro-issue-8357",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear"
+  },
+  "dependencies": {
+    "@docusaurus/core": "4.0.0-canary-6972",
+    "@docusaurus/preset-classic": "4.0.0-canary-6972",
+    "@docusaurus/theme-mermaid": "4.0.0-canary-6972",
+    "@mdx-js/react": "3.1.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "engines": {
+    "node": ">=24.21"
+  }
+}
