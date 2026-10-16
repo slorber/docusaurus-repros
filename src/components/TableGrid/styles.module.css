@@ -1,0 +1,18 @@
+/* CSS from https://github.com/facebook/docusaurus/issues/8860 */
+.grid {
+  display: grid;
+  grid-template-columns:
+    [kw] 2.5em
+    [day] 3em
+    [description] 10em;
+}
+
+.grid > .kw {
+  grid-column: kw;
+}
+.grid > .day {
+  grid-column: day;
+}
+.grid > .description {
+  grid-column: description;
+}
