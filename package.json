@@ -1,0 +1,28 @@
+{
+  "name": "docusaurus-repro-issue-8824",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear"
+  },
+  "dependencies": {
+    "@docusaurus/core": "4.0.0-canary-6975",
+    "@docusaurus/preset-classic": "4.0.0-canary-6975",
+    "@mdx-js/react": "3.1.1",
+    "clsx": "2.1.1",
+    "prism-react-renderer": "2.4.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "playwright-core": "1.63.0"
+  },
+  "browserslist": [
+    "baseline widely available"
+  ],
+  "engines": {
+    "node": ">=24.21"
+  }
+}
