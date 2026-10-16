@@ -1,0 +1,24 @@
+{
+  "name": "docusaurus-repro-issue-8623",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.10.2",
+    "@docusaurus/preset-classic": "3.10.2",
+    "@mdx-js/react": "3.1.1",
+    "docusaurus-theme-search-typesense": "0.27.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "browserslist": [
+    "baseline widely available"
+  ],
+  "engines": {
+    "node": ">=20.0"
+  }
+}
